@@ -20862,7 +20862,7 @@
           Er(512, ad, ad, [kt]),
           Er(256, Ss, "serverApp", []),
           Er(2048, xl, null, [Ss]),
-          Er(256, Ug, "marvel-heroes/ngsw-worker.js", []),
+          Er(256, Ug, "ngsw-worker.js", []),
           Er(256, Lg, { enabled: !0 }, []),
           Er(
             1024,

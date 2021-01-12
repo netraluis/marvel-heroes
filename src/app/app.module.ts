@@ -11,19 +11,21 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 import { MatCardModule } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
+import { ServiceWorkerModule } from "@angular/service-worker";
+import { environment } from "../environments/environment";
 
 @NgModule({
   declarations: [AppComponent, HeroesComponent, HeroeComponent],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule.withServerTransition({ appId: "serverApp" }),
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register("marvel-heroes/ngsw-worker.js", {
+      enabled: environment.production,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
