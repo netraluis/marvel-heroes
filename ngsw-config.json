@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/**",
+          "https://fonts.gstatic.com/**",
+          "http://i.annihil.us/u/prod/marvel/i/mg/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name":"heroes-data",
+      "urls": [
+        "https://gateway.marvel.com/v1/public/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 10000,
+        "maxAge" : "1h",
+        "strategy": "performance"
+      }
+    }
+  ]
+}

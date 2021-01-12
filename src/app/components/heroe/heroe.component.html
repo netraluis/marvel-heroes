@@ -1,0 +1,18 @@
+<div class="content" >
+  <mat-card class="matCard" *ngFor="let magazine of magazines" >
+    <mat-card-header>
+      <mat-card-title>{{magazine.title}}</mat-card-title>
+    </mat-card-header>
+    <img src="{{magazine.thumbnail.path}}.{{magazine.thumbnail.extension}}" width="330px">
+    <mat-card-content class="matCardContent" >
+      <h5>Heroes in the history</h5>
+      <div class="heroList" *ngFor="let heroe of magazine.characters.items">
+        <span> | {{heroe.name}}</span>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="warn" [routerLink] = "['/']">Back</button>
+    </mat-card-actions>
+
+  </mat-card>
+</div>

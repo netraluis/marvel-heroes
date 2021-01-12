@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.matCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid whitesmoke;
+  width: 330px;
+  margin-top: 10px;
+}
+.matCardContent {
+  margin-top: 10px;
+}
+.matCardContent > h5 {
+  margin: 0px;
+}
