@@ -38,7 +38,7 @@
         "https://gateway.marvel.com/v1/public/**"
       ],
       "cacheConfig": {
-        "maxSize": 10000,
+        "maxSize": 10,
         "maxAge" : "1h",
         "strategy": "performance"
       }
