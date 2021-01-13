@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1610479121638,
+  "timestamp": 1610530767417,
   "index": "https://netraluis.github.io/marvel-heroes/index.html",
   "assetGroups": [
     {
@@ -15,8 +15,8 @@
         "https://netraluis.github.io/marvel-heroes/manifest.webmanifest",
         "https://netraluis.github.io/marvel-heroes/polyfills-es2015.ffa9bb4e015925544f91.js",
         "https://netraluis.github.io/marvel-heroes/polyfills-es5.0290b245fbcca09184ac.js",
-        "https://netraluis.github.io/marvel-heroes/runtime-es2015.cdfb0ddb511f65fdc0a0.js",
-        "https://netraluis.github.io/marvel-heroes/runtime-es5.cdfb0ddb511f65fdc0a0.js",
+        "https://netraluis.github.io/marvel-heroes/runtime-es2015.8f1b4873643400312a21.js",
+        "https://netraluis.github.io/marvel-heroes/runtime-es5.8f1b4873643400312a21.js",
         "https://netraluis.github.io/marvel-heroes/styles.e8b2ef8f1d891acbc5a8.css"
       ],
       "patterns": []
@@ -64,14 +64,14 @@
     "https://netraluis.github.io/marvel-heroes/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://netraluis.github.io/marvel-heroes/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://netraluis.github.io/marvel-heroes/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://netraluis.github.io/marvel-heroes/index.html": "95141a880b1a3a27869e132116e56b180415f443",
+    "https://netraluis.github.io/marvel-heroes/index.html": "ce8f1ea7ff4e53dfc22ed075fb571556515f8dd8",
     "https://netraluis.github.io/marvel-heroes/main-es2015.68b63d4740f8b66dac6d.js": "34b5b3a40251e0490ddfba1f2ba2ed14bc341898",
     "https://netraluis.github.io/marvel-heroes/main-es5.68b63d4740f8b66dac6d.js": "4e0e81ddd2a1df9ffd257054d39277978a8666e6",
     "https://netraluis.github.io/marvel-heroes/manifest.webmanifest": "a5675d29684a0299338191c693dcaeedb87b09ac",
     "https://netraluis.github.io/marvel-heroes/polyfills-es2015.ffa9bb4e015925544f91.js": "79b2ff5ba292ae9e56f0b43982b9e76d9ddcf285",
     "https://netraluis.github.io/marvel-heroes/polyfills-es5.0290b245fbcca09184ac.js": "a7bfe75cfe39caaf5bc4c64b35dd9f1f0918a25f",
-    "https://netraluis.github.io/marvel-heroes/runtime-es2015.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://netraluis.github.io/marvel-heroes/runtime-es5.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://netraluis.github.io/marvel-heroes/runtime-es2015.8f1b4873643400312a21.js": "c8ec864d1bdaca16b829c93cf03a70fbf7093e61",
+    "https://netraluis.github.io/marvel-heroes/runtime-es5.8f1b4873643400312a21.js": "c8ec864d1bdaca16b829c93cf03a70fbf7093e61",
     "https://netraluis.github.io/marvel-heroes/styles.e8b2ef8f1d891acbc5a8.css": "26453d47ec36430b523ace93361172ee2488aa30"
   },
   "navigationUrls": [
