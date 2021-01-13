@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1610543027468,
+  "timestamp": 1610547983239,
   "index": "/marvel-heroes/index.html",
   "assetGroups": [
     {
@@ -49,7 +49,7 @@
         "https:\\/\\/gateway\\.marvel\\.com\\/v1\\/public\\/.*"
       ],
       "strategy": "performance",
-      "maxSize": 10000,
+      "maxSize": 100,
       "maxAge": 3600000,
       "version": 1
     }
